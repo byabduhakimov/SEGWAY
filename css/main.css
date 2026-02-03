@@ -1,0 +1,48 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.container {
+  max-width: 1376px;
+  margin: 0 208px;
+}
+
+header {
+  background: var(--Grey, rgba(50, 57, 65, 1));
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  padding: 20px 0;
+}
+
+.list-item-link {
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  font-family: Proxima Nova;
+  font-style: Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-align: left;
+  transition: all 0.4s ease;
+}
+.list-item-link:hover {
+  color: rgba(0, 158, 255, 1);
+  text-decoration: none;
+  font-family: Proxima Nova;
+  font-style: Regular;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 2%;
+  text-align: left;
+}
